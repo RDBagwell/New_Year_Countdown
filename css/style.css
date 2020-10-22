@@ -56,6 +56,20 @@ h1{
     margin: 0 0 5px;
 }
 
+.loading{
+    display: none;
+}
+
+.year{
+    font-size: 200px;
+    z-index: -1;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @media(max-width: 500px){
     h1{
         font-size: 45px;
@@ -75,6 +89,3 @@ h1{
     }
 }
 
-.loading{
-    display: none;
-}
