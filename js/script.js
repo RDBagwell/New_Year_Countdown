@@ -25,4 +25,10 @@ function updateCountdown(){
     seconds.textContent = s < 10 ? `0${s}` : s;
 }
 year.textContent = currentYear + 1;
+
+setTimeout(()=>{
+    countdown.style.visibility = 'visible';
+    loading.remove();
+}, 1000)
+
 setInterval(updateCountdown, 1000);

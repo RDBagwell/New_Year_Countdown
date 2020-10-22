@@ -42,6 +42,7 @@ h1{
 .counrdown{
     display: flex;
     transform: scale(2);
+    visibility: hidden;
 }
 
 .time{
@@ -57,7 +58,7 @@ h1{
 }
 
 .loading{
-    display: none;
+    display: block;
 }
 
 .year{
